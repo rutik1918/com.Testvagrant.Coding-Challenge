@@ -58,9 +58,9 @@ public class CrickTeamResults {
 					if (count == num - 1) {
 
 						tname.add(crickTeamResults);
-                   }
+                                      }
 				}
-         	}
+         	         }
 		}
 		return tname;
 	}
@@ -107,6 +107,6 @@ class DriverCrickTeamResults {
 	      catch (ArithmeticException e) {
 		               System.out.println("There are no teams with this result ");
 		         }
-           }
+                }
       }
 
